@@ -1,0 +1,24 @@
+{
+  "name": "travelalerts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Stepan Kostyukov",
+  "license": "ISC",
+    "engines": {
+        "node": "16.19.0"
+    },
+  "dependencies": {
+    "@fastify/static": "^6.9.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.12.0",
+    "got": "^12.5.3",
+    "graphql": "^16.6.0",
+    "mercurius": "^12.0.0",
+    "mongodb": "^4.13.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
